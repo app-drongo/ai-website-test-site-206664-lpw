@@ -1,6 +1,7 @@
 import Hero from '@/components/sections/home/Hero'
 import Features from '@/components/sections/home/Features'
 import Pricing from '@/components/sections/home/Pricing'
+import CallToAction from '@/components/sections/home/CallToAction'
 
 export default function HomePage() {
   return (
@@ -13,6 +14,9 @@ export default function HomePage() {
       </section>
       <section id="pricing">
         <Pricing />
+      </section>
+      <section id="cta">
+        <CallToAction />
       </section>
     </>
   )
